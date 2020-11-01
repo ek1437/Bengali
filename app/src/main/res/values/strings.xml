@@ -1,3 +1,16 @@
+<!--
+  ~ /**
+  ~  * Created by Eshawn Karim on 11/1/20 6:59 PM
+  ~  * Last modified 11/1/20 6:32 PM
+  ~  *
+  ~  * strings.xml
+  ~  * Bengali
+  ~  *
+  ~  * www.EshawnKarim.us
+  ~  * Copyright (c) 2020.
+  ~  */
+  -->
+
 <resources>
     <!-- Title for the application. [CHAR LIMIT=12] -->
     <string name="app_name">Bengali</string>
@@ -13,4 +26,10 @@
 
     <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
     <string name="category_family">Family Members</string>
+    <string name="title_activity_phrases">PhrasesActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
 </resources>

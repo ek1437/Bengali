@@ -1,3 +1,16 @@
+/*
+ * *
+ *  * Created by Eshawn Karim on 11/1/20 6:59 PM
+ *  * Last modified 11/1/20 6:39 PM
+ *  *
+ *  * build.gradle
+ *  * Bengali
+ *  *
+ *  * www.EshawnKarim.us
+ *  * Copyright (c) 2020.
+ *
+ */
+
 apply plugin: 'com.android.application'
 
 android {
@@ -6,7 +19,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.android.bengali"
-        minSdkVersion 15
+        minSdkVersion 24
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
@@ -19,9 +32,9 @@ android {
     }
 }
 
-
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.2'
     testImplementation 'junit:junit:4.13.1'
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'

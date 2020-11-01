@@ -1,0 +1,16 @@
+<!--
+  ~ /**
+  ~  * Created by Eshawn Karim on 11/1/20 6:59 PM
+  ~  * Last modified 11/1/20 6:32 PM
+  ~  *
+  ~  * strings.xml
+  ~  * Bengali
+  ~  *
+  ~  * www.EshawnKarim.us
+  ~  * Copyright (c) 2020.
+  ~  */
+  -->
+
+<resources>
+    <string name="hello_world">Hello Round World!</string>
+</resources>
