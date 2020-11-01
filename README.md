@@ -6,9 +6,12 @@ This app displays lists of vocabulary words for the user to learn the Bengali la
 Pre-requisites
 --------------
 
-- Android SDK v23
-- Android Build Tools v23.0.2
-- Android Support Repository v23.3.0
+- Android compileSdkVersion 29
+- Android buildToolsVersion '27.0.3'
+- Android Support Repository:
+  - implementation 'androidx.appcompat:appcompat:1.2.0'
+  - implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+  - implementation 'com.google.android.material:material:1.2.1'
 
 Getting Started
 ---------------
