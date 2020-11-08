@@ -16,7 +16,7 @@ Pre-requisites
 Getting Started
 ---------------
 
-This applicaiton uses the Gradle build system. To build this project, use the
+This application uses the Gradle build system. To build this project, use the
 "gradlew build" command or use "Import Project" in Android Studio.
 
 Support
